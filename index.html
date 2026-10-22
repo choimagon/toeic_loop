@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>TOEI LOOP · 토익 듣기 복습</title><link rel="stylesheet" href="style.css"></head>
 <body><main>
-<section class="upload" id="drop"><h1 class="app-name">TOEI <b>LOOP</b></h1><div><h2 id="filename">복습할 음원을 선택하세요</h2><p id="filemeta">MP3 파일 선택 또는 드래그 앤 드롭</p></div><label class="primary file-btn">파일 선택<input id="file" type="file" accept="audio/*,.mp3,.m4a,.wav"></label></section>
+<section class="upload" id="drop"><h1 class="app-name">TOEIC <b>LOOP</b></h1><div><h2 id="filename">복습할 음원을 선택하세요</h2><p id="filemeta">MP3 파일 선택 또는 드래그 앤 드롭</p></div><label class="primary file-btn">파일 선택<input id="file" type="file" accept="audio/*,.mp3,.m4a,.wav"></label></section>
 <section class="part-picker"><label for="part-select">학습 파트</label><select id="part-select"><option value="2">Part 2 · 7번부터</option><option value="3">Part 3 · 32번부터</option><option value="4">Part 4 · 71번부터</option></select><span id="part-help">질문과 A·B·C 보기를 나눠 들어요.</span></section>
 <p id="status" role="status">파일을 선택하고 학습할 파트를 확인해 주세요.</p>
 <details class="settings"><summary>자동 분리 설정 <span>번호 · 시작 위치 · 무음 간격</span></summary><div class="settings-grid"><label>첫 문항 번호<input id="first" type="number" min="1" max="999" value="7"></label><label>분석 시작 (초)<input id="offset" type="number" min="0" value="0" step="0.1"></label><label>문항 사이 무음 (초)<input id="gap" type="number" min="1" max="15" value="2.5" step="0.1"></label><label>문장 사이 무음 (초)<input id="short" type="number" min="0.15" max="1.5" value="0.45" step="0.05"></label><button id="analyze" class="primary" disabled>다시 분리</button></div><p>안내 방송이 포함됐다면 첫 질문 앞의 시간부터 분석하세요. 다시 분리하면 수정한 구간이 초기화됩니다.</p></details>
