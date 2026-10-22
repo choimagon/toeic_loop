@@ -1,0 +1,16 @@
+# Local listening files
+*.mp3
+*.m4a
+*.wav
+*.ogg
+*.aac
+*.flac
+*.aiff
+*.mp4
+
+# Local runtime files
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
